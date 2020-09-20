@@ -3,8 +3,6 @@ html {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-family: "Helvetica Neue", serif;
-    line-height: 1.5em;
 }
 
 ul {
@@ -12,3 +10,89 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: black;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+
+header h1, header nav ul li a {
+    color: white;
+    display: inline-block;
+}
+
+header nav, header nav ul, header nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li {
+    margin-right: 6px;
+}
+
+header nav ul {
+    margin-right: 18px;
+}
+
+header img {
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+header h1 {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.description {
+    background-color: #eeeeeecc;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-color: grey;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.content {
+    width: 78.7%;
+    margin: 0 auto;
+}
+
+.content img {
+    width: 35.3%;
+    margin-top: 40px;
+}
+
+.content-1 {
+    width: 62%;
+    margin-left: 1.3%;
+    margin-top: 35px;
+}
+
+main {
+    margin-top: 125px;
+}
+
+.left {
+    overflow: hidden;
+}
+
+.left > * {
+    float: left;
+}
+
+.right {
+    overflow: hidden;
+}
+
+.right > * {
+    float: right;
+}
+
